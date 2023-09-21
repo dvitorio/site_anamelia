@@ -80,7 +80,8 @@ html{scroll-behavior: smooth}
 .sobre h3,
 .sobre h4,
 .educacaoInfantil h3,
-.educacaoInfantil h4{
+.educacaoInfantil h4,
+.educacaoInfantil h5{
     color: rgb(25, 25, 110) !important;
 }
 
@@ -106,9 +107,20 @@ html{scroll-behavior: smooth}
 }
 
 .formulario{
-    width: 60vw;
+    width: 50vw;
     height: 70vh;
     padding: 1rem;
+}
+
+.rodape{
+    background-color: rgb(19, 19, 62);
+    width: 100vw;
+    height: 8rem;
+}
+
+.rodape h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.75rem;
 }
 
 
@@ -159,6 +171,10 @@ html{scroll-behavior: smooth}
     .sobre a,
     .educacaoInfantil a{
         width: fit-content !important;
+    }
+    .formulario{
+        width: 96vw;
+        margin: 0 auto;
     }
 }
 
