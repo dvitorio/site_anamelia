@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centro Escolar Anamélia</title>
+  <!--Bootstrap CSS-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <!--Favicon-->
+  <link rel="icon" type="image/x-icon" href="/img/logoAnamelia.png">
+  <!--FontAwesome-->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/brands.min.css"
+    integrity="sha512-W/zrbCncQnky/EzL+/AYwTtosvrM+YG/V6piQLSe2HuKS6cmbw89kjYkp3tWFn1dkWV7L1ruvJyKbLz73Vlgfg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!--Estilos globais CSS-->
+  <link rel="stylesheet" href="/css/estilos_1.css">
+</head>
+
+<body>
+
+  <!--Seção de login-->
+  <div class="col-xl-3 d-none login my-2 mx-auto rounded" id="login">
+    <img class="d-block mx-auto my-2" src="/img/logoAnamelia.png" alt="Logomarca da escola" width="60">
+    <input class="form-control my-3" type="text" placeholder="Informe seu CPF">
+    <input class="form-control my-3" type="text" placeholder="Digite seu email de acesso">
+    <div class="row">
+      <div class="col-xl-6">
+        <button class="btn btn-primary btn-block d-block mx-auto my-2">Acessar sistema</button>
+      </div>
+      <div class="col-xl-6">
+        <button class="btn btn-danger btn-block d-block mx-auto my-2" id="btnLoginSair">Cancelar</button>
+      </div>
+    </div>
+    <h6 class="my-3 text-center text-secondary">Siga-nos nas redes sociais</h6>
+    <div class="midiasLogin">
+      <a href="#"><img class="d-block img mx-3" src="/img/instagram.png" alt="Logo Instagram" width="24"></a>
+      <a href="#"><img class="d-block img mx-3" src="/img/facebook.png" alt="Logo Facebook" width="24"></a>
+      <a href="#"><img class="d-block img mx-3" src="/img/whatsapp.png" alt="Logo Whatsapp" width="24"></a>
+    </div>
+    <h6 class="d-block h6 mx-auto mt-4 text-center text-secondary">Esqueceu sua senha? Clique <a href="">aqui</a> e
+      recupere seu acesso </h6>
+  </div>
+
+
+  <!--Container geral-->
+  <div class="geral bodyScreen" id="geral">
+    <!-- Navegação -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <img src="/img/logoAnamelia.png" alt="" width="60">
+      <h1 class="navbar-brand"><b>Centro Escolar Anamélia</b></h1>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="#sobre">Sobre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link mx-4" href="#educacaoInfantil">Educação Infantil</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link mx-4" href="#">Ensino Fundamental</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link mx-4" href="#">Ensino Médio</a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link mx-4" href="#">Galeria</a>
+          </li>
+          <li class="border nav-item ">
+            <a class="nav-link mx-4" href="#" id="btnModalLogin">Restrito</a>
+          </li>
+          <li class="nav-item ">
+            <a class="btn btn-primary nav-link mx-4 text-white" href="#secaoFormulario" id="btnContatoMenu">Entrar em
+              contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Capa do site-->
+    <div class="capaSite">
+      <h2 class="text-right text-white capaSiteTexto">Aqui o aprendizado é uma jornada de descobertas, crescimento e
+        excelência</h2>
+    </div>
+
+    <!--Seção Sobre-->
+    <div class="container py-3 sobre" id="sobre">
+      <div class="my-3 sobreTextos">
+        <h2 class="my-3 text-center"><b>Sobre o Anamélia</b></h2>
+        <p class="text-justify text-secondary">
+          Bem-vindo ao Centro Escolar Anamélia, onde a excelência educacional e o desenvolvimento integral dos alunos é
+          nossa principal meta. Há mais de 55 anos, temos sido um farol de aprendizado e crescimento na comunidade da
+          Fazenda Grande do Retiro e bairros
+          vizinhos. Nossa
+          missão é inspirar, educar e capacitar nossos alunos para se tornarem cidadãos responsáveis, criativos e
+          bem-preparados para o futuro.
+        </p>
+        <img class="d-block img mt-3 mx-auto rounded w-100" src="/img/amigos-da-escola.jpg" alt="">
+      </div>
+      <div class="my-3 sobreTextos">
+        <h4 class="mt-4 mb-3"><b>Nossa história</b></h4>
+        <p class="text-justify text-secondary">
+          Fundada em 1968, nossa escola tem uma rica história de fornecer educação de qualidade e por uma mensalidade
+          acessível. Ao longo
+          dos anos, crescemos e evoluímos, mantendo sempre o compromisso com a excelência acadêmica e a formação de
+          verdadeiros cidadãos preparados para o futuro.
+        </p>
+      </div>
+      <div class="my-3 sobreTextos">
+        <h4 class="mt-4 mb-3 text-secondary"><b>Nossa equipe</b></h4>
+        <p class="text-justify text-secondary">
+          Nossa equipe é composta por educadores altamente qualificados e dedicados, apaixonados por fornecer um
+          ambiente de aprendizado inspirador e enriquecedor. Eles são comprometidos com o sucesso de cada aluno e
+          trabalham em estreita colaboração com pais e responsáveis para garantir o melhor para nossos estudantes.
+        </p>
+      </div>
+      <div class="my-3 sobreTextos">
+        <h4 class="mt-4 mb-3 text-secondary"><b>Valores fundamentais</b></h4>
+        <p class="text-justify text-secondary">
+          Na nossa escola, acreditamos em valores fundamentais que guiam nossas ações diárias:
+        <ul class="ml-4 text-secondary">
+          <li class="text-justify"><b>Excelência</b>: Buscamos a excelência em tudo o que fazemos, desde o currículo até
+            as atividades extracurriculares.</li>
+          <li class="text-justify"><b>Respeito</b>: Valorizamos a diversidade e promovemos um ambiente de respeito mútuo
+            entre alunos, professores e funcionários.</li>
+          <li class="text-justify"><b>Inovação</b>: Abraçamos a inovação e a criatividade para preparar nossos alunos
+            para os desafios do futuro.</li>
+          <li class="text-justify"><b>Responsabilidade</b>: Promovemos a responsabilidade pessoal e cívica em todos os
+            níveis da nossa comunidade escolar.</li>
+        </ul>
+        </p>
+      </div>
+      <div class="my-3 sobreTextos">
+        <h4 class="mt-4 mb-3 text-secondary"><b>Compromisso com a comunidade</b></h4>
+        <p class="text-justify text-secondary">
+          Estamos orgulhosos de nossa parceria com a comunidade de [Nome da Comunidade]. Participamos ativamente em
+          eventos e projetos que beneficiam nossa cidade e região. Acreditamos que a educação não é apenas sobre a
+          escola, mas também sobre o papel que desempenhamos na construção de uma comunidade mais forte e unida.
+          Estamos ansiosos para fazer parte da jornada educacional do seu filho e trabalhar juntos para alcançar um
+          futuro brilhante. Seja bem-vindo à nossa escola!
+        </p>
+      </div>
+      <a class="btn btn-dark d-block my-4 mx-auto text-white w-25"><img class="mr-1" src="/img/whatsapp.png" width="20">
+        Agendar uma visita!</a>
+    </div>
+
+    <!--Seção Educação Infantil-->
+    <div class="container py-3 educacaoInfantil" id="educacaoInfantil">
+      <h2 class="mb-3 text-center"><b>Educação infantil</b></h2>
+      <div class="educacaoInfantilTextos">
+        <p class="text-justify text-secondary">
+          Na nossa escola, a Educação Infantil é onde começa a emocionante jornada de aprendizado do seu filho.
+          Entendemos que os primeiros anos de vida são cruciais para o desenvolvimento cognitivo, emocional e social, e
+          estamos comprometidos em proporcionar um ambiente seguro, carinhoso e estimulante para as crianças em idade
+          pré-escolar.
+        </p>
+      </div>
+      <img class="d-block img mx-auto rounded w-100" src="/img/infantil_2.jpg" alt="">
+      <div class="educacaoInfantilTextos">
+        <h4 class="mt-4 mb-3 text-secondary"><b>Nossos programas</b></h4>
+        <p class="text-justify text-secondary">
+          Oferecemos programas de Educação Infantil que atendem às necessidades específicas de cada faixa etária:
+        <h5 class="my-3 text-secondary">Berçário (0 a 2 anos)</h5>
+        <p class="text-justify text-secondary">No berçário da nossa escola, cuidamos carinhosamente
+          dos bebês, proporcionando-lhes um ambiente seguro e estimulante para seu desenvolvimento. Nossa equipe
+          altamente treinada e dedicada está focada em atender às necessidades específicas dos bebês, enquanto promove
+          um ambiente onde eles possam crescer e prosperar.
+        </p>
+        <img class="d-block img my-3 mx-auto rounded" src="/img/infantil_1.jpg" alt="">
+        <h5 class="my-3 text-secondary"><b>Maternal (2 a 3 anos)</b></h5>
+        <p class="text-justify text-secondary"> No maternal, as crianças começam a desenvolver
+          habilidades sociais, emocionais e cognitivas por meio de brincadeiras e atividades direcionadas. as crianças
+          estão prontas para explorar o mundo ao seu redor de maneira mais independente. Nosso programa incentiva o
+          desenvolvimento de habilidades sociais e emocionais, enquanto as prepara para a transição para a pré-escola.
+        </p>
+        <img class="d-block img my-3 mx-auto rounded" src="/img/infantil_3.jpg" alt="">
+        <li class="text-justify"><b>Pré-escola (4 a 5 anos)</b>: A pré-escola é uma fase emocionante, onde as crianças
+          se preparam para a transição para o ensino fundamental. Nosso currículo foca no desenvolvimento acadêmico e
+          social.</li>
+        <img class="d-block img my-3 mx-auto rounded" src="/img/infantil_4.jpg" alt="">
+        </p>
+      </div>
+      <a class="btn btn-dark d-block my-4 mx-auto text-white w-25"><img class="mr-1" src="/img/whatsapp.png" width="20">
+        Agendar uma visita!</a>
+    </div>
+
+
+    <!--Seção do formulário de contato-->
+    <div class="bg-dark secaoFormulario" id="secaoFormulario">
+      <div class="bg-secondary formulario">
+        <h4 class="text-center text-white">Preencha o formulário para entrar em contato conosco</h4>
+        <div class="row">
+          <div class="col-xl-5">
+            <input class="form-control my-3" type="text" placeholder="Nome completo">
+          </div>
+          <div class="col-xl-7">
+            <input class="form-control my-3" type="email" placeholder="Seu email principal">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4">
+            <input class="form-control my-4" type="tel" placeholder="Telefone com DDD">
+          </div>
+        </div>
+        <button class="btn btn-primary">Enviar mensagem</button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+</body>
+
+<!--Bootstrap JS-->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+  integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+  integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+  integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+" crossorigin="anonymous"></script>
+<!--Scripts JS-->
+<script src="/js/estilos_1.js"></script>
+
+</html>
