@@ -36,3 +36,20 @@
     width: 40vw;
     margin-left: 2rem;
 }
+
+
+
+@media screen and (max-width: 30rem) {
+    .chamadaFund_II p{
+        width: 96vw !important;
+        margin: 0 1rem;
+    }
+    .chamadaFundTextos{
+        width: 96vw !important;
+        margin: 0 0.5rem;
+    }
+    .chamadaFund_II img{
+        max-width: 100%;
+        height: auto;
+    }
+}
