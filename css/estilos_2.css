@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.chamadaFund_II{
+    background-color: rgb(61, 61, 157) !important;
+    width: 100vw;
+    height: fit-content;
+}
+
+.chamadaFundTextos{
+    width: 60vw;
+    height: auto;
+}
+
+.chamadaFund_II p{
+    border-radius: 20px;
+    width: 42vw;
+    font-size: 0.9rem;
+    line-height: 2rem;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100 !important;
+}
+
+.chamadaFund_II img{
+    width: auto;
+    height: 60vh;
+}
+
+.chamadaItens{
+    width: 40vw;
+    margin-left: 2rem;
+}
