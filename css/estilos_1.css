@@ -99,6 +99,7 @@ html{scroll-behavior: smooth}
 }
 
 .secaoFormulario{
+    background-image: url('/img/fundoFormulario.jpg');
     display: flex;
     align-items: center;
     justify-content: center;
@@ -107,15 +108,26 @@ html{scroll-behavior: smooth}
 }
 
 .formulario{
+    border: 0.5px solid rgb(181, 167, 167);
+    backdrop-filter: blur(15px);
     width: 50vw;
-    height: 70vh;
+    height: 65vh;
     padding: 1rem;
 }
 
 .rodape{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
     background-color: rgb(19, 19, 62);
     width: 100vw;
-    height: 8rem;
+    min-height: 8rem;
+}
+
+.rodape img:hover{
+    cursor: pointer;
+    transform: scale(1.1);
 }
 
 .rodape h6{
@@ -175,6 +187,7 @@ html{scroll-behavior: smooth}
     .formulario{
         width: 96vw;
         margin: 0 auto;
+        height: auto;
     }
 }
 
