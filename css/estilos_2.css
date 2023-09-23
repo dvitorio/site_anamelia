@@ -8,7 +8,6 @@
 }
 
 .chamadaFund_II{
-    background-color: rgb(61, 61, 157) !important;
     width: 100vw;
     height: fit-content;
 }
@@ -20,9 +19,9 @@
 
 .chamadaFund_II p{
     border-radius: 20px;
-    width: 42vw;
+    width: 60vw;
     font-size: 0.9rem;
-    line-height: 2rem;
+    line-height: 2.5rem;
     font-family: 'Raleway', sans-serif;
     font-weight: 100 !important;
 }
@@ -36,6 +35,11 @@
     width: 40vw;
     margin-left: 2rem;
 }
+
+.chamadaFundTextos h6{
+    margin-left: 8.5rem;
+}
+
 
 
 
