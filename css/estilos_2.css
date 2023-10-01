@@ -7,6 +7,11 @@
     text-decoration: none;
 }
 
+hr{
+    border: 1px solid rgb(226, 218, 218);
+    width: 60vw;
+}
+
 .chamadaFund_II{
     width: 100vw;
     height: fit-content;
@@ -40,6 +45,22 @@
     margin-left: 8.5rem;
 }
 
+.ensinoMedio{
+    width: 100vw;
+    min-height: 100vh;
+}
+
+.ensinoMedio p{
+    width: 60vw;
+    font-size: 0.9rem;
+    line-height: 2.5rem;
+}
+
+.ensinoMedio img{
+    width: auto;
+    height: 60vh;
+}
+
 
 
 
@@ -55,5 +76,20 @@
     .chamadaFund_II img{
         max-width: 100%;
         height: auto;
+    }
+    .ensinoMedio{
+        width: 100vw;
+        height: auto;
+    }
+    .ensinoMedio p{
+        width: 96vw;
+        height: auto;
+        font-size: 0.8rem;
+        line-height: 1.75rem;
+    }
+    .ensinoMedio img{
+        max-width: 96vw;
+        height: auto;
+        margin: 0 0.5rem;
     }
 }
