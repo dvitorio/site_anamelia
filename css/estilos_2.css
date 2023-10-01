@@ -41,9 +41,7 @@ hr{
     margin-left: 2rem;
 }
 
-.chamadaFundTextos h6{
-    margin-left: 8.5rem;
-}
+.chamadaFundTextos h6{margin-left: 8.5rem}
 
 .ensinoMedio{
     width: 100vw;
@@ -59,6 +57,13 @@ hr{
 .ensinoMedio img{
     width: auto;
     height: 60vh;
+}
+
+.ensinoMedio h5{margin: 1.5rem 5.7rem}
+
+.ensinoMedio button{
+    background-color: rgb(78, 75, 75);
+    margin: 1rem auto;
 }
 
 
@@ -82,7 +87,7 @@ hr{
         height: auto;
     }
     .ensinoMedio p{
-        width: 96vw;
+        width: 98vw;
         height: auto;
         font-size: 0.8rem;
         line-height: 1.75rem;
@@ -91,5 +96,9 @@ hr{
         max-width: 96vw;
         height: auto;
         margin: 0 0.5rem;
+    }
+    .ensinoMedio h5{
+        width: 100vw;
+        font-size: 1.25rem;
     }
 }
